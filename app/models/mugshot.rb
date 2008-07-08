@@ -1,5 +1,5 @@
 class Mugshot < ActiveRecord::Base
-  require 'rmagick'
+  require 'RMagick'
   acts_as_cached
   has_attachment :content_type => :image, 
   :storage => :file_system, 
