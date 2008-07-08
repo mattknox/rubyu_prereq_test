@@ -1,3 +1,26 @@
+== Welcome to the ruby class prerequisites tester.  This will (hopefully) tell you whether
+you are missing bits of software that are necessary for the ruby/rails class at sermo.  
+here are the steps:
+
+1: get this source to your machine:  
+git clone git://github.com/mattknox/rubyu_prereq_test.git
+
+
+2: database setup (warning!  will drop a mysql database named prereqtest_development if it exists)
+cd into the just checked out project directory, and then:
+rake db:drop db:create db:migrate
+
+3: start the server (make sure you don't have another server running on port 3000
+./script/server
+
+4: start memcached
+memcached
+
+5: see if stuff happens!
+browse to localhost:3000 and follow instructions there.
+
+
+
 == Welcome to Rails
 
 Rails is a web-application framework that includes everything needed to create 
