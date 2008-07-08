@@ -1,0 +1,12 @@
+<h1>Editing mugshot</h1>
+
+<% form_for(@mugshot) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.submit "Update" %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @mugshot %> |
+<%= link_to 'Back', mugshots_path %>
