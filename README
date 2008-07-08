@@ -2,7 +2,8 @@
 you are missing bits of software that are necessary for the ruby/rails class at sermo.  
 here are the steps:
 0: actually install the prerequisites.  
-you'll need: (with the listed version or greater, unless otherwise specified)
+you'll need: (with the listed version or greater, unless otherwise specified.  Generally
+the most recent version is a good idea)
 ruby 1.8.6
 gems 1.1
 git 1.5
