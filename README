@@ -9,7 +9,7 @@ gems 1.1
 git 1.5
 imagemagick
 memcached
-some rdbms
+some rdbms (I'll be using mysql)
 
 and some gems:
 piston
