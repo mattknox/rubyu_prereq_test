@@ -1,6 +1,23 @@
 == Welcome to the ruby class prerequisites tester.  This will (hopefully) tell you whether
 you are missing bits of software that are necessary for the ruby/rails class at sermo.  
 here are the steps:
+0: actually install the prerequisites.  
+you'll need: (with the listed version or greater, unless otherwise specified)
+ruby 1.8.6
+gems 1.1
+git 1.5
+imagemagick
+memcached
+some rdbms
+
+and some gems:
+piston
+memcache-client
+rails 2.1
+rmagick
+rspec
+mongrel
+
 
 1: get this source to your machine:  
 git clone git://github.com/mattknox/rubyu_prereq_test.git
@@ -19,6 +36,10 @@ memcached
 5: see if stuff happens!
 browse to localhost:3000 and follow instructions there.
 
+
+If you run into problems with this, you'll pretty much be on your own-I'm a terrible sysadmin,
+and I don't have time to fix anyone's install of rails/ruby/memcached/etc.   There is, however,
+a fallback: use heroku.  
 
 
 == Welcome to Rails
